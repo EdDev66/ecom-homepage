@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div id="overlay" class="hidden"></div>
+
+  <div class="nav">
+    <div class="left_col_nav">
+      <div class="hamburger_menu"></div>
+      <img class="nav_logo" src="images/logo.svg" alt="" />
+      <div class="links">
+        <a href="#">Collections</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="right_col_nav">
+      <div class="cart">
+        <div class="notification_badge hidden">0</div>
+        <img class="cart_icon" src="images/icon-cart.svg" alt="">
+      </div>
+      <img class="avatar" src="images/image-avatar.png" alt="">
+    </div>
+  </div>
+  <div class="line"></div>
+
+  <div class="mobile_navigation hidden">
+    <div class="mobile_nav_bg">
+      <img src="images/icon-close.svg" class="close_mobile_nav" alt="">
+      <div class="mobile_links">
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cart_overlay hidden">
+    <div class="cart_text">Cart</div>
+    <div class="separator"></div>
+    <div class="cart_contents default">
+        <p class="empty_cart">Your cart is empty.</p>
+    </div>
+  </div>
+
+  <div class="main_content">
+    <div class="left_col_main">
+      <div class="showcase_image">
+        <img class="display_image" src="images/image-product-1.jpg" alt="">
+      </div>
+      <div class="products_images">
+        <div class="small_img_container">
+          <img class="active_img small_img" data-number="0" src="images/image-product-1-thumbnail.jpg" alt="">
+        </div>
+        <div class="small_img_container">
+          <img class="small_img" data-number="1" src="images/image-product-2-thumbnail.jpg" alt="">
+        </div>
+        <div class="small_img_container">
+          <img class="small_img" data-number="2" src="images/image-product-3-thumbnail.jpg" alt="">
+        </div>
+        <div class="small_img_container">
+          <img class="small_img" data-number="3" src="images/image-product-4-thumbnail.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="right_col_main">
+      <div class="brand">Sneaker Company</div>
+      <h1 class="product_name">Fall Limited Edition Sneakers</h1>
+      <p class="description">  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="price_discount">
+          <p class="new_price">$125.00</p>
+          <p class="discount_amount">50%</p>
+        </div>
+        <p class="original_price">$250.00</p>
+      <div class="cart_buttons">
+        <div class="quantity">
+          <span class="qty_btn">-</span>
+          <span class="qty_amount">0</span>
+          <span class="qty_btn">+</span>
+        </div>
+        <div class="add_to_cart">
+          <img class="add_to_cart_img" src="images/icon-cart.svg" alt="">
+          <span>Add to cart</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/EdDev66">EdDev66</a>.
+    </div>
+  </div>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
