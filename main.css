@@ -365,6 +365,15 @@ body {
     /* justify-content: center; */
 }
 
+.hamburger_menu {
+    display: none;
+}
+
+.hamburger_menu img {
+    display: none;
+}
+
+
 #overlay {
     display: flex;
     justify-content: center;
@@ -554,17 +563,6 @@ body {
     .right_col_nav {
         gap: 1em;
     }
-
-    .hamburger_menu {
-        width: 4rem;
-        height: 4rem;
-        background-image: url(images/icon-menu.svg);
-        cursor: pointer;
-        margin-left: -1rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-    
     .contenedor-img {
     width: clamp(5rem, 100%, 10rem);
     height: clamp(5rem, 100%, 10rem);
@@ -572,6 +570,20 @@ body {
 
     .links {
         display: none;
+    }
+
+    .hamburger_menu {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-left: -1rem;
+    }
+
+    .hamburger_menu img {
+        display: inline;
     }
   
     .contenedor-img img {
