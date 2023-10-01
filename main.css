@@ -558,7 +558,7 @@ body {
     .hamburger_menu {
         width: 4rem;
         height: 4rem;
-        background-image: url(/images/icon-menu.svg);
+        background-image: url(images/icon-menu.svg);
         cursor: pointer;
         margin-left: -1rem;
         background-repeat: no-repeat;
